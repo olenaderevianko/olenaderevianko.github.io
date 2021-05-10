@@ -1,0 +1,395 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/earth-field-10913.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #F5F7FA;
+}
+
+.upper-line{
+    display: flex;
+    width: 1200px;
+    height: auto;
+    background-color: rgba(30, 41, 57, 0.53);
+    margin: 50px auto 20px auto;
+}
+
+.about-site{
+}
+
+.site-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #ffff;
+    margin: 25px auto 25px 50px;
+}
+
+.site-description{
+    font-style: normal;
+    font-weight: bold;
+    line-height: 17px;
+    font-size: 14px;
+    color: #ffff;
+    margin: 25px auto 35px 50px;
+}
+
+/*MAIN PAGE*/
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto auto auto auto;
+    box-shadow: 6px 6px 20px #1E2939;
+}
+
+.main-content{
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: auto auto auto auto;
+    width: 900px;
+}
+
+.main-content-titles{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/*sidebar section*/
+
+.sidebar-section{
+    background-color: rgba(30, 41, 57, 0.5);
+    width: 300px;
+    margin: 0 0 0 0;
+}
+
+.menu-section{
+    padding: 50px 0 0 40px;
+}
+
+.menu-section-titles{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.nav-menu{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 0 0 12px;
+}
+
+.top-menu{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 0 0 12px;
+}
+
+.sub-menu{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0 0 0 12px;
+}
+
+.sublist {
+    cursor:pointer;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0 0 0;
+}
+
+.arrow{
+    width: 15px;
+    margin-top: -20px;
+}
+
+.menu-item{
+    text-decoration: none;
+    padding: 0 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+.links-to-pages{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0 0 0;
+}
+
+.about-me{
+    margin: 0 0 0 0;
+}
+
+.about-me-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    color: #171515;
+    width: auto;
+    text-align: center;
+}
+
+.picture{
+    width: 370px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+/*PAGE ABOUT ACHIEVEMENTS*/
+
+.about-competition {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
+    color: #171515;
+    width: auto;
+    text-align: center;
+}
+
+.sign {
+    display: block; /* Выравнивание по правому краю */
+    border: 1px solid; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    background: #f0f0f0; /* Цвет фона */
+}
+
+.images-achievements{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+.sign figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+
+.images-achievements-caption{
+    text-align: center;
+}
+
+.group-item{
+    text-align: center;
+}
+.logo{
+    width: 20px;
+}
+
+/*PAGE ABOUT LANGUAGE DAY*/
+
+
+.language-day{
+
+}
+
+.about-language-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.lang-day{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block; /* Выравнивание по правому краю */
+    border: 1px solid; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    background: #f0f0f0; /* Цвет фона */
+}
+
+.images-lang{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+
+/*PAGE ABOUT WISDOM*/
+
+.images-wisdom{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    text-align: center;
+}
+
+.images-wisdom-caption{
+    text-align: center;
+    font-size: 25px;
+}
+
+.images-wisdom-author{
+    text-align: right;
+    font-size: 20px;
+}
+
+/*PAGE ABOUT HEROES DAY*/
+
+.about-heroes-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/*PAGE ABOUT FLAG DAY*/
+
+.about-flag-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/*PAGE ABOUT IDP DAY*/
+
+.about-independence-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+.about-independence-day-sec{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/*PAGE ABOUT MEMORY DAY*/
+
+.mem-day{
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.about-memory-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+/*PAGE ABOUT NATIONAL LANGUAGE*/
+
+.images-national-lang{
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
+
+.about-national-language-day{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.images-national-lang-sec{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    text-align: center;
+}
+
+/*DOWN LINE*/
+
+.down-line{
+    display: flow;
+    flex-direction: row;
+    width: 1200px;
+    height: 100px;
+    background-color: rgba(30, 41, 57, 0.53);
+    margin: 20px auto 50px auto;
+}
+
+.img-contacts-first{
+    float: left;
+    display: block;
+    width: 300px;
+    height: 100px;
+}
+
+.title-contacts{
+    display: block;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img-contacts-second{
+    float: left;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.img-contacts-third{
+    float: left;
+    display: block;
+    width: 300px;
+}
+
+.images-contacts{
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+.images-contacts-sec{
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding-left: 25px;
+    padding-top: 0px;
+}
+
+.mail-link{
+    display: block;
+    line-height: 20px;
+    font-size: 18px;
+    margin-top: 37px;
+    margin-bottom: 43px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+}
+
+/*PAGE ABOUT HOLIDAYS*/
+
+.about-holidays{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+
+/*PAGE ABOUT CLASS*/
+
+.our-class-caption{
+    text-align: center;
+    font-size: 30px;
+}
