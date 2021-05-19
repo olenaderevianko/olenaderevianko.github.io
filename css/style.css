@@ -88,6 +88,10 @@ body{
     padding: 0 0 0 12px;
 }
 
+.nav-menu a:hover{
+    font-weight: bold;
+}
+
 .top-menu{
     text-decoration: none;
     list-style-type: none;
